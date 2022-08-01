@@ -15,8 +15,8 @@ const About = () => {
 
           <p className="py-2 text-gray-600">
             I am a passionate frontend developer with a little experience in
-            backend. I started attending Harvard's CS50 classes wich ignited my
-            passion for programming.
+            backend. I started attending Harvard&apos;s CS50 classes wich
+            ignited my passion for programming.
           </p>
           <p className="py-2 text-gray-600">
             Fascinated with how intricate programming can be I was quickly drawn

@@ -29,9 +29,9 @@ const Space = () => {
           <p className="mt-2">
             I built this application as a challenge from frontendmentor.io ( a
             website that provides different difficulty levels of fontend UIs). I
-            didn't use any frameworks in this website as a challenge to myself,
-            and to strengthen my basic javascript and css abilities. This app
-            includes pagination and is hosted on netlify.
+            didn&apos;t use any frameworks in this website as a challenge to
+            myself, and to strengthen my basic javascript and css abilities.
+            This app includes pagination and is hosted on netlify.
           </p>
 
           <a
