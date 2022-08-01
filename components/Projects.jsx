@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
+import EcommerceImg from "../public/assets/projects/projectImages/ecommerce-img/main.png";
 import ProjectItem from "./ProjectItem";
 import DashboardImg from "../public/assets/projects/projectImages/dashboard-img/main.png";
 import SpaceImg from "../public/assets/projects/projectImages/space-exp-img/home/main.png";
@@ -17,9 +17,9 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
+            title="Mhd Headphones"
+            backgroundImg={EcommerceImg}
+            projectUrl="/ecommerce"
             tech="React JS"
           />
           <ProjectItem

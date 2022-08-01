@@ -14,14 +14,6 @@ const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = () => {
-    setName("");
-    setPhone("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
-  };
-
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
@@ -89,7 +81,6 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
-                onSubmit={handleSubmit}
                 action="https://getform.io/f/4c914ea5-858c-42aa-9bf5-9293370a1461"
                 method="POST"
               >
@@ -101,7 +92,10 @@ const Contact = () => {
                       type="text"
                       name="name"
                       value={name}
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={(e) => {
+                        setName(e.target.value);
+                        console.log(name);
+                      }}
                     />
                   </div>
                   <div className="flex flex-col">
